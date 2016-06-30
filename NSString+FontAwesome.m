@@ -57,8 +57,11 @@
             /* Font Awesome ver 4.30 */
             @"\uf236", @"\uf20d", @"\uf218", @"\uf217", @"\uf20e", @"\uf210", @"\uf219", @"\uf230", @"\uf211", @"\uf21e", @"\uf236", @"\uf212", @"\uf222", @"\uf227", @"\uf229", @"\uf22b", @"\uf22a", @"\uf23a", @"\uf223", @"\uf21c", @"\uf22c", @"\uf231", @"\uf213", @"\uf233", @"\uf21a", @"\uf214", @"\uf215", @"\uf216", @"\uf21d", @"\uf239", @"\uf238", @"\uf224", @"\uf225", @"\uf234", @"\uf21b", @"\uf235", @"\uf221", @"\uf226", @"\uf228", @"\uf237",
             /* Font Awesome ver 4.40 */
-            @"\uf26e", @"\uf270", @"\uf24e", @"\uf244", @"\uf240", @"\uf242", @"\uf243", @"\uf241", @"\uf27e", @"\uf274", @"\uf272", @"\uf271", @"\uf273", @"\uf24c", @"\uf24b", @"\uf268", @"\uf24d", @"\uf27a", @"\uf27b", @"\uf26d", @"\uf25e", @"\uf23e", @"\uf269", @"\uf280", @"\uf22d", @"\uf265", @"\uf260", @"\uf261", @"\uf258", @"\uf256", @"\uf25b", @"\uf25a", @"\uf255", @"\uf257", @"\uf259", @"\uf254", @"\uf253", @"\uf252", @"\uf250", @"\uf251", @"\uf27c", @"\uf246", @"\uf275", @"\uf26b", @"\uf279", @"\uf278", @"\uf276", @"\uf277", @"\uf245", @"\uf247", @"\uf248", @"\uf263", @"\uf264", @"\uf23d", @"\uf26a", @"\uf23c", @"\uf25d", @"\uf267", @"\uf249", @"\uf24a", @"\uf26c", @"\uf25c", @"\uf262", @"\uf27d", @"\uf266", @"\uf23b"];
-
+            @"\uf26e", @"\uf270", @"\uf24e", @"\uf244", @"\uf240", @"\uf242", @"\uf243", @"\uf241", @"\uf27e", @"\uf274", @"\uf272", @"\uf271", @"\uf273", @"\uf24c", @"\uf24b", @"\uf268", @"\uf24d", @"\uf27a", @"\uf27b", @"\uf26d", @"\uf25e", @"\uf23e", @"\uf269", @"\uf280", @"\uf22d", @"\uf265", @"\uf260", @"\uf261", @"\uf258", @"\uf256", @"\uf25b", @"\uf25a", @"\uf255", @"\uf257", @"\uf259", @"\uf254", @"\uf253", @"\uf252", @"\uf250", @"\uf251", @"\uf27c", @"\uf246", @"\uf275", @"\uf26b", @"\uf279", @"\uf278", @"\uf276", @"\uf277", @"\uf245", @"\uf247", @"\uf248", @"\uf263", @"\uf264", @"\uf23d", @"\uf26a", @"\uf23c", @"\uf25d", @"\uf267", @"\uf249", @"\uf24a", @"\uf26c", @"\uf25c", @"\uf262", @"\uf27d", @"\uf266", @"\uf23b",
+        
+            /* Font Awesome ver 4.50 */
+            @"\uf293", @"\uf294", @"\uf284", @"\uf283", @"\uf282", @"\uf286", @"\uf292", @"\uf289", @"\uf285", @"\uf28b", @"\uf28c", @"\uf295",
+                @"\uf288", @"\uf281", @"\uf28a", @"\uf290", @"\uf291", @"\uf28d", @"\uf28e", @"\uf287"];
     });
     
     return fontAwesomeUnicodeStrings;
@@ -689,6 +692,29 @@
         tmp[@"fa-vimeo"]                = @(FAvimeo);
         tmp[@"fa-wikipedia-w"]          = @(FAwikipediaW);
         tmp[@"fa-y-combinator"]         = @(FAyCombinator);
+        
+        /* FontAwesome ver 4.5.0 */
+        tmp[@"fa-bluetooth"]            = @(FAbluetooth);
+        tmp[@"fa-bluetooth-b"]          = @(FAbluetoothB);
+        tmp[@"fa-codiepie"]             = @(FAcodiepie);
+        tmp[@"fa-credit-card-alt"]      = @(FAcreditCardAlt);
+        tmp[@"fa-edge"]                 = @(FAedge);
+        tmp[@"fa-fort-awesome"]         = @(FAfortAwesome);
+        tmp[@"fa-hashtag"]              = @(FAhashtag);
+        tmp[@"fa-mixcloud"]             = @(FAmixcloud);
+        tmp[@"fa-modx"]                 = @(FAmodx);
+        tmp[@"fa-pause-circle"]         = @(FApauseCircle);
+        tmp[@"fa-pause-circle-o"]       = @(FApauseCircleO);
+        tmp[@"fa-percent"]              = @(FApercent);
+        tmp[@"fa-product-hunt"]         = @(FAproductHunt);
+        tmp[@"fa-reddit-alien"]         = @(FAredditAlien);
+        tmp[@"fa-scribd"]               = @(FAscribd);
+        tmp[@"fa-shopping-bag"]         = @(FAshoppingBag);
+        tmp[@"fa-shopping-basket"]      = @(FAshoppingBasket);
+        tmp[@"fa-stop-circle"]          = @(FAstopCircle);
+        tmp[@"fa-stop-circle-o"]        = @(FAstopCircleO);
+        tmp[@"fa-usb"]                  = @(FAusb);
+
         
 		enumDictionary = tmp;
 	});

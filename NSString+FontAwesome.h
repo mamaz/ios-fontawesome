@@ -645,7 +645,30 @@ typedef NS_ENUM(NSInteger, FAIcon) {
     FAtripadvisor,
     FAvimeo,
     FAwikipediaW,
-    FAyCombinator
+    FAyCombinator,
+    
+    /* FontAwesome ver 4.5.0 */
+    FAbluetooth,
+    FAbluetoothB,
+    FAcodiepie,
+    FAcreditCardAlt,
+    FAedge,
+    FAfortAwesome,
+    FAhashtag,
+    FAmixcloud,
+    FAmodx,
+    FApauseCircle,
+    FApauseCircleO,
+    FApercent,
+    FAproductHunt,
+    FAredditAlien,
+    FAscribd,
+    FAshoppingBag,
+    FAshoppingBasket,
+    FAstopCircle,
+    FAstopCircleO,
+    FAusb
+    
 };
 
 
@@ -654,7 +677,7 @@ typedef NS_ENUM(NSInteger, FAIcon) {
 
 /**
  @abstract Returns the correct enum for a font-awesome icon.
- @discussion The list of identifiers can be found here: http://fortawesome.github.io/Font-Awesome/icons
+ @discussion The list of identifiers can be found here: http://fortawesome.github.com/Font-Awesome/#all-icons
  */
 + (FAIcon)fontAwesomeEnumForIconIdentifier:(NSString*)string;
 
@@ -665,7 +688,7 @@ typedef NS_ENUM(NSInteger, FAIcon) {
 
 /* 
  @abstract Returns the font-awesome character associated to the font-awesome identifier.
- @discussion The list of identifiers can be found here: http://fortawesome.github.io/Font-Awesome/icons
+ @discussion The list of identifiers can be found here: http://fortawesome.github.com/Font-Awesome/#all-icons
  */
 + (NSString*)fontAwesomeIconStringForIconIdentifier:(NSString*)identifier;
 
